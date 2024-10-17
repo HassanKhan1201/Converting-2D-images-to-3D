@@ -1,4 +1,5 @@
 # Project Title: 2D to 3D Conversion using Depth and Structure Maps
+![image](https://github.com/user-attachments/assets/b23398cb-3154-47d8-9da4-ac59e752a7a5)
 
 # Description:
 This project aims to convert 2D images, specifically paired depth and structure maps, into 3D CAD models saved in the PLY format. It utilizes OpenCV and Open3D libraries to generate a 3D mesh from the input images and exports it for further use in CAD software.
