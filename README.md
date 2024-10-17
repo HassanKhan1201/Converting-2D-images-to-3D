@@ -19,12 +19,11 @@ pip install opencv-python
 pip install open3d
 ```
 
-# Usage:
-
-
 If you are using Google Colab, ensure that Open3D is installed using:
 ```
 !pip install open3d
 ```
 
+# Usage:
+1. Clone the repository:
 
