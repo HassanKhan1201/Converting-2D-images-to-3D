@@ -26,4 +26,25 @@ If you are using Google Colab, ensure that Open3D is installed using:
 
 # Usage:
 1. Clone the repository:
+```
+git clone https://github.com/HassanKhan1201/Converting-2D-images-to-3D.git
+```
+  
+2. Navigate to the project directory:
+```
+cd your-repo-directory
+```
 
+3. Open and run the Jupyter notebook `ipynb file` using Jupyter or Google Colab.
+
+4. Ensure that your depth map and structure map images are available in the expected format and paths.
+
+5. Modify the code to point to your image files if needed, and execute the notebook to generate a 3D PLY file.
+   
+# Inputs:
+**Depth Map:** A grayscale image where the intensity values represent the distance of each pixel from the camera.
+
+**Structure Map:** An outline or wireframe of the object's geometry for boundary detection.
+
+# Output:
+**PLY file:** A 3D CAD model in PLY format that can be visualized in tools like MeshLab, Blender, or CAD software.
